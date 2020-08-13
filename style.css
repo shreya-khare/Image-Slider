@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(to top,aqua,green);
+  }
+  div{
+    border: solid 5px;
+    padding: 10px;
+    margin:auto;
+    width: fit-content;
+  }
+  img{
+    position: relative;
+  }
+  #prev{
+    position: absolute;
+    top: 60%;
+    left: 34%;
+    z-index: 2;
+  }
+  #next{
+    position: absolute;
+    top: 60%;
+    right: 34%;
+    z-index: 2;
+  }
+  
